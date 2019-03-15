@@ -21,4 +21,4 @@ Route::get('/aurevoir', function () {
 
     Route::get('/la_revedere', function () {
         return view('la_revedere');
-    });
+    }); 
