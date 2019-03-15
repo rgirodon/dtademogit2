@@ -27,3 +27,6 @@ Route::get('/adios', function () {
     return view('adios');
 });
 
+    Route::get('/la_revedere', function () {
+        return view('la_revedere');
+    });
