@@ -19,6 +19,6 @@ Route::get('/aurevoir', function () {
     return view('aurevoir');
 });
 
-Route::get('/aurevoir', function () {
+Route::get('/adiou', function () {
     return view('adiou');
 });
