@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/aurevoir', function () {
     return view('aurevoir');
 });
+
+    Route::get('/la_revedere', function () {
+        return view('la_revedere');
+    });
