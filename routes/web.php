@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/aurevoir', function () {
     return view('aurevoir');
 });
+Route::get('/adios', function () {
+    return view('adios');
+});
