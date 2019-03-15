@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/aurevoir', function () {
     return view('aurevoir');
 });
+
+    Route::get('/bslama', function () {
+        return view('bslama');
+    });
+
